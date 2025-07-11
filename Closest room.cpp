@@ -27,9 +27,7 @@ public:
                 ans[queries[i][2]] = -1;
                 continue;
             }
-            //cout<<j<<"\n";
             auto it = s.upper_bound(queries[i][0]);
-          //  cout<<queries[i][0]<<"\n";
             int val1 = INT_MAX;
             if(it != s.end())
             {
