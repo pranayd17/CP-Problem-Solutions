@@ -13,7 +13,7 @@ public:
             dp[0].push_back({i, dist});
         }
         
-        int minOverall = INT_MAX;
+        int minOverall=INT_MAX;
         
         for (int i = 1; i < key.size(); ++i) {
             for (int idx : indexMap[key[i]]) {
