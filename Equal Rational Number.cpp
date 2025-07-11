@@ -10,6 +10,7 @@ public:
   }
   while (s.size() < 20) s += repeated;
 }
+
 bool isRationalEqual(string S, string T) {
   normalize(S), normalize(T);
   bool fill = false;
